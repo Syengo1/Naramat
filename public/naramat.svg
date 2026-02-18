@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <color id="brand-purple">#4A148C</color>
+    <color id="brand-light">#9C7DBF</color>
+    <color id="brand-gold">#C5A059</color>
+    <color id="brand-red">#DC2626</color>
+    <color id="brand-dark">#2D2D2D</color>
+  </defs>
+
+  <path d="M 75 120 L 425 120 L 415 350 C 415 350 250 480 250 480 C 250 480 85 350 85 350 L 75 120 Z" 
+        fill="#9C7DBF" stroke="#4A148C" stroke-width="8" />
+
+  <path d="M 85 130 L 415 130 L 405 345 C 405 345 250 465 250 465 C 250 465 95 345 95 345 L 85 130 Z" 
+        fill="none" stroke="#FFFFFF" stroke-width="4" opacity="0.5"/>
+
+  <path id="ribbon-path" d="M 50 100 C 50 100 150 150 250 130 C 350 110 450 100 450 100 L 470 70 L 440 70 L 450 40 C 450 40 350 90 250 110 C 150 130 50 40 50 40 L 60 70 L 30 70 L 50 100 Z" 
+        fill="#4A148C" stroke="#FFFFFF" stroke-width="3"/>
+
+  <path id="text-curve-top" d="M 60 85 C 150 155 350 155 440 85" fill="none" />
+  
+  <text fill="white" font-family="serif" font-weight="bold" font-size="34" text-anchor="middle" letter-spacing="2">
+    <textPath href="#text-curve-top" startOffset="50%">NARAMAT ACADEMY</textPath>
+  </text>
+
+  <g transform="translate(160, 160)">
+    <path d="M 90 0 L 170 30 L 90 60 L 10 30 Z" fill="#2D2D2D" stroke="#4A148C" stroke-width="2"/>
+    <path d="M 50 45 L 50 70 C 50 85 130 85 130 70 L 130 45" fill="#2D2D2D"/>
+    <path d="M 170 30 L 165 55 L 175 80" fill="none" stroke="#C5A059" stroke-width="3"/>
+    <circle cx="175" cy="80" r="5" fill="#C5A059"/>
+  </g>
+
+  <g transform="translate(155, 240)">
+    <path d="M 5 20 L 95 20 L 95 90 L 5 80 Q 50 70 5 20 Z" fill="#FFFFFF" stroke="#4A148C" stroke-width="2"/>
+    <path d="M 10 80 Q 50 70 95 90" fill="none" stroke="#E5E7EB" stroke-width="2"/>
+    <path d="M 95 20 L 185 20 Q 140 70 185 80 L 95 90 L 95 20 Z" fill="#FFFFFF" stroke="#4A148C" stroke-width="2"/>
+    <path d="M 95 90 Q 140 70 180 80" fill="none" stroke="#E5E7EB" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(120, 140) rotate(-15)">
+    <rect x="0" y="40" width="16" height="130" fill="#DC2626" stroke="#4A148C" stroke-width="1"/> <path d="M 0 170 L 8 190 L 16 170 Z" fill="#C5A059"/> <path d="M 5 183 L 8 190 L 11 183 Z" fill="#2D2D2D"/> <rect x="0" y="30" width="16" height="10" fill="#9CA3AF"/> <path d="M 0 30 C 0 20 16 20 16 30 Z" fill="#EF4444"/> </g>
+
+  <g transform="translate(350, 140) rotate(15)">
+    <rect x="0" y="0" width="20" height="150" rx="5" fill="#5D4037" stroke="#C5A059" stroke-width="1"/> <rect x="0" y="50" width="20" height="10" fill="#C5A059"/> <rect x="2" y="10" width="4" height="30" fill="#C5A059" opacity="0.5"/> <path d="M 0 150 L 10 175 L 20 150 Z" fill="#C5A059"/> <path d="M 10 150 L 10 165" stroke="#2D2D2D" stroke-width="1"/> </g>
+
+  <path id="text-curve-bottom" d="M 110 330 C 180 380 320 380 390 330" fill="none" />
+  
+  <text fill="#4A148C" font-family="sans-serif" font-weight="900" font-size="26" text-anchor="middle" letter-spacing="1">
+    <textPath href="#text-curve-bottom" startOffset="50%">DETERMINED TO EXCEL</textPath>
+  </text>
+  
+</svg>

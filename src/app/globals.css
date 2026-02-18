@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  /* 1. Map Next.js Fonts to Tailwind Utilities */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+
+  /* 2. Define Naramat Brand Colors */
+  --color-naramat-brand: #4A148C;   /* Deep Royal Purple */
+  --color-naramat-light: #9C7DBF;   /* Lavender */
+  --color-naramat-gold: #C5A059;    /* Icon Gold */
+  --color-naramat-accent: #EF4444;  /* Crimson Red */
+  --color-naramat-surface: #FAF5FF; /* Off-white Background */
+
+  /* 3. Custom Animations (Optional Premium Feel) */
+  --animate-fade-in: fade-in 0.5s ease-out forwards;
+  
+  @keyframes fade-in {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* v4 automatically handles resets/preflights. 
+   We just add standard utility usage here if needed.
+*/
+body {
+  @apply bg-naramat-surface text-gray-900 antialiased;
+}
